@@ -2,6 +2,7 @@ from django.db import models
 
 # Create your models here.
 
+# Modelos DB
 
 class Alumno(models.Model):
     apellidoPaterno = models.CharField(max_length= 35)
